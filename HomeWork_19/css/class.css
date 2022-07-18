@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+background-color: cornsilk;
+
+}
+
+
+
+.container {
+
+ width: 400px;
+ height: 700px;
+ border: 1px solid #000;
+ background-color: burlywood;
+ text-align: center; 
+ padding-top: 80px;  
+margin-left: 500px;
+margin-top: 60px;
+
+
+}
+
+#id_h1 {
+
+text-align: center;
+padding-bottom: 50px;
+
+}
+
+.scgc {
+
+margin-bottom: 10px;
+font-size: 20px;
+
+
+}
+
+.click {
+
+
+margin-top: 20px;
+
+}
+
+.click2 {
+
+margin-bottom: 20px;
+
+}
+

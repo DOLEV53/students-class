@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/class.css">
+    <title>Class </title>
+</head>
+<body>
+
+
+  <div class="container">
+
+<div id="id_h1">
+<h1>Student Form</h1>
+</div>
+
+<div class="scgc">  
+<label for="name">student name :</label>
+<input type="text" class="name" id="item_1" ></input><br>
+</div>
+
+<div class="scgc"> 
+<label for="class">class name :</label>
+<input type="text" class="class" id="item_2" ></input><br>
+</div>
+
+<div class="scgc">
+<label for="grade">grade :</label>
+<input type="number" class="grade" id="item_3" ></input><br>
+</div>
+
+<div class="scgc">
+<label for="car"> car type :</label>
+<input type="text" class="car" id="item_4" ></input><br>
+</div>
+
+<div class="click">
+<button onclick="addItem()" id="val">send</button><br><br>
+</div>
+
+<div class="click2">
+<button class="btn" onclick="dispList()">Click to display list</button>
+</div>
+
+<div>
+    <h3>my List :</h3>
+    <div id="class_list"></div>
+   
+</div>
+
+</div>
+
+<script src="./js/class.js"></script>
+</body>
+</html>
